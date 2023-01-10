@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
+
+.home{
+    float: right;
+
+
+
+    
+}
+
+.hello{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+.profil_img{
+    width: auto;
+    float: inline-end;
+}
+
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+
+.header3WP {
+  image-rendering: auto;
+  width: 100%;
+  padding:60px 0;
+  text-align: center;
+  background: #00f7ff;
+  color: white;
+}
+
+
+ /* -------------------------------------------Template Body--css Parts--------------------------------------- */
+ body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* --------------------------Navbar or Menu bar opening CSS Part ----------------------------------------------------- */
+.myTop {
+  overflow: hidden;
+  background-color: #333;
+  float: none;
+  padding: 10px;
+}
+
+.myTop a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.myTop a:hover {
+  background-color: rgb(8, 255, 29);
+  color: black;
+}
+
+.myTop a.active {
+  background-color: #c73510;
+  color: white;
+}
+
+.myTop .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .myTop a:not(:first-child) {
+    display: none;
+  }
+
+  .myTop a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .myTop.responsive {
+    position: relative;
+  }
+
+  .myTop.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .myTop.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* ---------------------------Navbar or Menu bar Closing CSS Part------------------------------------------- */
+/* -------------------------------------Download Button Or Button Opening CSS Part ------------------------ */
+.btn {
+  background-color: rgb(11, 255, 2);
+  border: none;
+  color: rgb(7, 7, 7);
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(251, 255, 0);
+}
+/* -------------------------------------Download Button Or Button Closing CSS Part ------------------------ */
