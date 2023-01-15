@@ -34,14 +34,14 @@ a{
 
 h1 {
   font-size: 2.8em;
-  padding: 10px 0;
-  font-weight: 500;
+  padding: 100px 0;
+  font-weight: 800;
 }
 
 
 .header3WP {
   image-rendering: auto;
-  width: 10%;
+  width: 100%;
   padding:60px 0;
   text-align: center;
   background: #00f7ff;
